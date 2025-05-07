@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>g</title>
+    <style>
+        body {
+            margin: auto;
+            background-color: #8f89ff;
+        }
+
+        header, nav, article, footer {
+            margin: 5px;
+            padding: 5px;
+            text-align: justify;
+            border: 5px solid #B33C86;
+        }
+        nav {
+            position: sticky;
+            top 0px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        nav ul li {
+            list-style-type: none;
+        }
+
+        @media only screen and (min-width) {
+            body {
+                width: 80%;
+            }
+
+            #content {
+                display: flex;
+            }
+
+            nav {position: static;}
+            nav ul {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Peepee Poopoo</h1>
+    </header>
+    <div id="content">
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div id="blogs">
+            <article>
+                <h2>Blog post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet faucibus fermentum. Integer facilisis condimentum leo in viverra. Nam dignissim euismod metus sed imperdiet. Mauris ut faucibus nibh. Donec vel vehicula dolor. Vestibulum ut varius felis, vitae volutpat nulla. Donec iaculis, arcu nec ullamcorper fringilla, nunc magna varius enim, at imperdiet diam neque vel enim. Morbi sed urna augue. Suspendisse iaculis tristique tellus, at tincidunt enim dignissim sed. Quisque non consequat lacus, ut faucibus turpis. Vivamus vel nulla quis dolor tincidunt sagittis. Maecenas ultrices lacus enim, id sodales magna faucibus vitae. Mauris quis felis finibus, interdum leo eget, faucibus ante.</p>
+            </article>
+            <article>
+                <h2>Blog post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet faucibus fermentum. Integer facilisis condimentum leo in viverra. Nam dignissim euismod metus sed imperdiet. Mauris ut faucibus nibh. Donec vel vehicula dolor. Vestibulum ut varius felis, vitae volutpat nulla. Donec iaculis, arcu nec ullamcorper fringilla, nunc magna varius enim, at imperdiet diam neque vel enim. Morbi sed urna augue. Suspendisse iaculis tristique tellus, at tincidunt enim dignissim sed. Quisque non consequat lacus, ut faucibus turpis. Vivamus vel nulla quis dolor tincidunt sagittis. Maecenas ultrices lacus enim, id sodales magna faucibus vitae. Mauris quis felis finibus, interdum leo eget, faucibus ante.</p>
+            </article>
+            <article>
+                <h2>Blog post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet faucibus fermentum. Integer facilisis condimentum leo in viverra. Nam dignissim euismod metus sed imperdiet. Mauris ut faucibus nibh. Donec vel vehicula dolor. Vestibulum ut varius felis, vitae volutpat nulla. Donec iaculis, arcu nec ullamcorper fringilla, nunc magna varius enim, at imperdiet diam neque vel enim. Morbi sed urna augue. Suspendisse iaculis tristique tellus, at tincidunt enim dignissim sed. Quisque non consequat lacus, ut faucibus turpis. Vivamus vel nulla quis dolor tincidunt sagittis. Maecenas ultrices lacus enim, id sodales magna faucibus vitae. Mauris quis felis finibus, interdum leo eget, faucibus ante.</p>
+            </article>
+        </div>
+    </div>
+    <footer>Made by</footer>
+</body>
+
+</html>
